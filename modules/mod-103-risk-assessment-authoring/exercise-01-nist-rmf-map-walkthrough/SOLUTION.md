@@ -247,14 +247,14 @@ Walkthrough-level checks (binary, all must pass):
 
 ## 6. References
 
-- NIST, _AI Risk Management Framework (AI RMF 1.0)_, January 2023 — the
+- NIST, *AI Risk Management Framework (AI RMF 1.0)*, January 2023 — the
   Map function and its five categories with sub-categories.
   <https://www.nist.gov/itl/ai-risk-management-framework>
-- NIST, _AI RMF Playbook_ — expanded suggested actions per Map sub-category
+- NIST, *AI RMF Playbook* — expanded suggested actions per Map sub-category
   used to validate what belongs under each. <https://www.nist.gov/itl/ai-risk-management-framework>
-- NIST, _AI 600-1: Generative AI Profile_, July 2024 — the twelve GenAI
+- NIST, *AI 600-1: Generative AI Profile*, July 2024 — the twelve GenAI
   risks referenced in the risk register. <https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf>
-- OWASP, _Machine Learning Security Top 10_ — referenced for the
+- OWASP, *Machine Learning Security Top 10* — referenced for the
   prompt-injection / adversarial-input category used in R-02. <https://owasp.org/www-project-machine-learning-security-top-10/>
 - MITRE ATLAS — adversary-technique vocabulary complementing the
   information-security row. <https://atlas.mitre.org/>
