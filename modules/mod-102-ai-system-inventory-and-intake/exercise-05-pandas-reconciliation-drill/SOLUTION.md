@@ -128,6 +128,22 @@ DTYPES: dict[str, str] = {
 CASEFOLD_COLS = {"owner_team", "eu_ai_act_tier"}
 
 
+def _differs(a: object, b: object) -> bool:
+    """True iff `a` and `b` should be reported as different.
+
+    pandas nullable dtypes propagate `pd.NA` through comparisons, so a bare
+    `a != b` returns `pd.NA` when either side is missing and raises
+    `TypeError: boolean value of NA is ambiguous` in an `if`. Treat both-NA
+    as equal (same missing state) and one-NA as a diff.
+    """
+    a_na, b_na = pd.isna(a), pd.isna(b)
+    if a_na and b_na:
+        return False
+    if a_na or b_na:
+        return True
+    return a != b
+
+
 # --- Load --------------------------------------------------------------------
 
 def load(path: Path) -> pd.DataFrame:
@@ -181,7 +197,7 @@ def reconcile(inv_raw: pd.DataFrame, dis_raw: pd.DataFrame) -> tuple[pd.DataFram
             return "in_discovered_not_inventory"
         # Both sides present — compare normalised values.
         for col in COMPARE_COLS:
-            if row[f"{col}_inv"] != row[f"{col}_dis"]:
+            if _differs(row[f"{col}_inv"], row[f"{col}_dis"]):
                 return "match_with_diffs"
         return "match_identical"
 
@@ -191,7 +207,7 @@ def reconcile(inv_raw: pd.DataFrame, dis_raw: pd.DataFrame) -> tuple[pd.DataFram
     def differing_cols(row: pd.Series) -> list[str]:
         if row["status"] != "match_with_diffs":
             return []
-        return [c for c in COMPARE_COLS if row[f"{c}_inv"] != row[f"{c}_dis"]]
+        return [c for c in COMPARE_COLS if _differs(row[f"{c}_inv"], row[f"{c}_dis"])]
 
     merged["differing_columns"] = merged.apply(differing_cols, axis=1)
 
@@ -204,9 +220,15 @@ def reconcile(inv_raw: pd.DataFrame, dis_raw: pd.DataFrame) -> tuple[pd.DataFram
 
     # --- Long-format column diffs using the RAW (un-normalised) values -------
     # Re-attach raw values so the analyst sees "High_Risk" vs "high_risk" in
-    # the report, not the casefolded version.
-    raw_merged = inv_raw.merge(
-        dis_raw, on=JOIN_KEY, how="outer", suffixes=("_inv", "_dis")
+    # the report, not the casefolded version. Strip the join key on both sides
+    # first so that a raw ID with trailing whitespace (e.g. "SYS-002 ") joins
+    # to its clean twin instead of fanning out into a separate row.
+    inv_raw_keyed = inv_raw.copy()
+    dis_raw_keyed = dis_raw.copy()
+    inv_raw_keyed[JOIN_KEY] = inv_raw_keyed[JOIN_KEY].str.strip()
+    dis_raw_keyed[JOIN_KEY] = dis_raw_keyed[JOIN_KEY].str.strip()
+    raw_merged = inv_raw_keyed.merge(
+        dis_raw_keyed, on=JOIN_KEY, how="outer", suffixes=("_inv", "_dis")
     )
     raw_merged = raw_merged.merge(
         merged[[JOIN_KEY, "status", "differing_columns"]], on=JOIN_KEY, how="left"
