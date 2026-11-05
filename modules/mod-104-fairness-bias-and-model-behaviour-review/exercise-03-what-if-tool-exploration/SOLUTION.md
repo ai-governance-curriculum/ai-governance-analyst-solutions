@@ -88,11 +88,12 @@ features will carry the signal."
 
 #### Probe 3 — Partial-dependence sweep
 
-Sweep `prior_employer_tier` 1 → 5 on three candidates. Score jumps
-0.18 → 0.41 → 0.52 → 0.66 → 0.71 on one candidate, with the largest
-jump between tiers 2 and 3. The feature is not monotone in a
-justifiable way — tiers are categorical employer brackets, and the
-model has learned a sharp bracket boundary.
+Sweep `prior_employer_tier` 1 → 5 on three candidates. Score moves
+0.18 → 0.41 → 0.36 → 0.68 → 0.71 on one candidate: a dip between
+tiers 2 and 3 (non-monotone) and the largest jump, 0.32, between
+tiers 3 and 4. The feature is not monotone in a justifiable way —
+tiers are categorical employer brackets, and the model has learned a
+sharp bracket boundary.
 
 Written finding: "`prior_employer_tier` is a load-bearing feature with
 a non-monotone, cliff-shaped effect. This is the most likely proxy
@@ -104,9 +105,13 @@ Illustrative numbers:
 
 ```
 candidate_group   count   selection_rate   TPR    FPR    accuracy
-A                  3,800        0.34       0.72   0.14      0.78
-B                  1,200        0.21       0.55   0.09      0.74
+A                  3,800        0.34       0.72   0.14      0.81
+B                  1,200        0.21       0.55   0.09      0.82
 ```
+
+(The per-group accuracy figures are derived from the confusion-matrix
+cells behind each row — prevalence ≈ 0.35 for A and ≈ 0.26 for B — so
+selection rate, TPR, FPR, and accuracy are mutually consistent.)
 
 Written finding: "At threshold 0.5, group B selection rate is 0.21 vs.
 0.34 for A (ratio 0.62, below the four-fifths rule-of-thumb). TPR gap

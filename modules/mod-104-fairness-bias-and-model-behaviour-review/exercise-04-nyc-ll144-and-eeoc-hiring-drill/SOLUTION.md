@@ -86,10 +86,16 @@ Women                       0.251 / 0.286 = 0.878
 Reading, section by section:
 
 - **Duty posture.** The audit was performed by "Acme Audit Co."
-  Confirm: is Acme independent per DCWP §5-301 (no financial interest
-  in ExampleCo or the AEDT vendor)? If the independence attestation is
-  missing from the summary, the audit does not satisfy LL 144 even if
-  the numbers are correct.
+  Confirm independently that Acme meets the DCWP §5-301 independence
+  criteria — no financial interest in ExampleCo or the AEDT vendor and
+  no involvement in using, developing, or distributing the AEDT.
+  Auditor independence is a gating LL 144 requirement, but note that
+  the §5-303 required public-summary fields (audit date, data source,
+  per-category counts, selection/scoring rates, impact ratios, AEDT
+  distribution date) do not themselves include an independence
+  attestation; absence of such an attestation from the public summary
+  is not by itself a §5-303 disclosure violation, so the independence
+  check belongs in the audit file, not on the summary line.
 - **Categories.** Selection and scoring rates are reported for EEO-1
   race/ethnicity × sex intersections as the DCWP rules require. If an
   intersectional cell is suppressed because n < the audit's reporting
@@ -160,10 +166,17 @@ Reading, section by section:
 
 ### 2.4 Decision rationale
 
-- **Intersectional view is the binding view under LL 144.** The DCWP
-  implementing rules explicitly require intersectional sex × race/
-  ethnicity impact ratios. A collapsed view that clears four-fifths
-  does not clear LL 144 when any intersectional cell fails.
+- **Intersectional view is a required disclosure under LL 144.** The
+  DCWP implementing rules explicitly require intersectional sex ×
+  race/ethnicity impact ratios to be reported in the public summary.
+  LL 144 itself does not impose a pass/fail threshold on those ratios
+  — the DCWP FAQ is explicit that the law requires the audit, the
+  summary, and the candidate notice, not any specific action based on
+  the audit results — so an intersectional cell below 0.80 does not
+  by itself mean the employer has failed to clear LL 144. It does,
+  however, drive the substantive Title VII analysis, which is why the
+  intersectional view, not the collapsed view, is the binding one for
+  the council's go / remediate / block decision.
 - **"Procedural compliance ≠ Title VII safety" is the headline for the
   council.** Many councils read a published LL 144 audit summary as
   closing the file; the memo names Title VII as the other, still-open
@@ -192,8 +205,12 @@ Reading, section by section:
    vendor (DCWP §5-301).
 3. Confirm the candidate-notice content and 10-business-day lead time
    are implemented in the application flow (NYC Admin. Code §20-871).
-4. Confirm any category below the reporting threshold was suppressed
-   consistently and the suppression is disclosed.
+4. If any intersectional category represents less than 2% of the
+   audit data, confirm it was excluded from the impact-ratio
+   calculation under the DCWP §5-301(d) small-category exception
+   (this is a statutory exclusion, not generic "suppression under an
+   unspecified reporting threshold") and that the exclusion — and the
+   count of excluded categories — is disclosed in the public summary.
 5. Map each failing cell to a candidate Title VII protected category
    and confirm the EEOC Technical Assistance language on
    algorithm-driven adverse impact applies.
