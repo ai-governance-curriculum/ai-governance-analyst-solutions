@@ -250,22 +250,22 @@ Document-level checks (binary, all must pass):
 
 ## 6. References
 
-- City of New York, _Local Law 144 of 2021_ — Automated Employment
+- City of New York, *Local Law 144 of 2021* — Automated Employment
   Decision Tools. Codified at NYC Admin. Code §§20-870 to 20-874.
   <https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=4344524&GUID=B051915D-A9AC-451E-81F8-6596032FA3F9>
-- NYC Department of Consumer and Worker Protection, _Final Rules on
-  Automated Employment Decision Tools_, effective 5 July 2023 (Title 6
+- NYC Department of Consumer and Worker Protection, *Final Rules on
+  Automated Employment Decision Tools*, effective 5 July 2023 (Title 6
   RCNY, chapter 5, subchapter T). <https://rules.cityofnewyork.us/rule/automated-employment-decision-tools-updated/>
-- U.S. EEOC, _Uniform Guidelines on Employee Selection Procedures_,
+- U.S. EEOC, *Uniform Guidelines on Employee Selection Procedures*,
   29 C.F.R. Part 1607, in particular §1607.4(D) (four-fifths rule of
   thumb), §1607.5 (validation), §1607.14 (technical standards for
   validity studies). <https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XIV/part-1607>
-- U.S. EEOC, _Select Issues: Assessing Adverse Impact in Software,
+- U.S. EEOC, *Select Issues: Assessing Adverse Impact in Software,
   Algorithms, and Artificial Intelligence Used in Employment Selection
-  Procedures Under Title VII of the Civil Rights Act of 1964_,
+  Procedures Under Title VII of the Civil Rights Act of 1964*,
   technical assistance document, May 2023.
   <https://www.eeoc.gov/select-issues-assessing-adverse-impact-software-algorithms-and-artificial-intelligence-used>
-- NIST, _AI Risk Management Framework (AI RMF 1.0)_, January 2023 —
+- NIST, *AI Risk Management Framework (AI RMF 1.0)*, January 2023 —
   Govern 1 (policies and processes) and Measure 2 (trustworthy
   characteristics including fairness) as the frame the LL 144 /
   Title VII duties plug into. <https://www.nist.gov/itl/ai-risk-management-framework>

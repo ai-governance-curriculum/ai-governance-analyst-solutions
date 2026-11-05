@@ -227,18 +227,18 @@ Deck-level checks (binary, all must pass):
 
 ## 6. References
 
-- Wexler et al., _The What-If Tool: Interactive Probing of Machine
-  Learning Models_, IEEE Transactions on Visualization and Computer
+- Wexler et al., *The What-If Tool: Interactive Probing of Machine
+  Learning Models*, IEEE Transactions on Visualization and Computer
   Graphics, 2020 (open access via Google Research). Project home and
   documentation: <https://pair-code.github.io/what-if-tool/>
-- NIST, _AI Risk Management Framework (AI RMF 1.0)_, January 2023 —
+- NIST, *AI Risk Management Framework (AI RMF 1.0)*, January 2023 —
   Measure 2.11 (fairness) and Measure 3 (ongoing measurement) as the
   functions this exercise supports. <https://www.nist.gov/itl/ai-risk-management-framework>
-- NIST, _Special Publication 1270: Towards a Standard for Identifying
-  and Managing Bias in Artificial Intelligence_, March 2022 — for the
+- NIST, *Special Publication 1270: Towards a Standard for Identifying
+  and Managing Bias in Artificial Intelligence*, March 2022 — for the
   three-category bias taxonomy used in the decision rationale.
   <https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf>
-- U.S. EEOC, _Uniform Guidelines on Employee Selection Procedures_,
+- U.S. EEOC, *Uniform Guidelines on Employee Selection Procedures*,
   29 C.F.R. §1607.4(D) — four-fifths rule-of-thumb context.
   <https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XIV/part-1607>
 - OWASP Machine Learning Security Top 10 — ML08 Model Skewing as a
