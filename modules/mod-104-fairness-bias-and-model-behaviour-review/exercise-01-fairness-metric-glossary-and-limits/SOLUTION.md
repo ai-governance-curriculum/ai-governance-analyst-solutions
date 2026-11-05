@@ -170,13 +170,13 @@ Glossary-level checks (binary, all must pass):
 
 ## 6. References
 
-- NIST, _AI Risk Management Framework (AI RMF 1.0)_, January 2023 —
+- NIST, *AI Risk Management Framework (AI RMF 1.0)*, January 2023 —
   §3.4 "Fair — with harmful bias managed" under the trustworthy
   characteristics. <https://www.nist.gov/itl/ai-risk-management-framework>
-- NIST, _Special Publication 1270: Towards a Standard for Identifying and
-  Managing Bias in Artificial Intelligence_, March 2022 — three-category
+- NIST, *Special Publication 1270: Towards a Standard for Identifying and
+  Managing Bias in Artificial Intelligence*, March 2022 — three-category
   taxonomy of bias. <https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf>
-- U.S. EEOC, _Uniform Guidelines on Employee Selection Procedures_,
+- U.S. EEOC, *Uniform Guidelines on Employee Selection Procedures*,
   29 C.F.R. Part 1607, §1607.4(D) — the four-fifths rule of thumb.
   <https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XIV/part-1607>
 - OWASP Machine Learning Security Top 10 — practitioner-facing framing of

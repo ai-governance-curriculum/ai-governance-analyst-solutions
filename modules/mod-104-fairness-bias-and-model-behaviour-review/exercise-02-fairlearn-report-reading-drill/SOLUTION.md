@@ -230,14 +230,14 @@ analyst would approve a report built on 40 examples.
 - Fairlearn project documentation — `fairlearn.metrics.MetricFrame`,
   `selection_rate`, `true_positive_rate`, `false_positive_rate`,
   `MetricFrame.difference`, `MetricFrame.ratio`. <https://fairlearn.org/>
-- NIST, _AI Risk Management Framework (AI RMF 1.0)_, January 2023 — the
+- NIST, *AI Risk Management Framework (AI RMF 1.0)*, January 2023 — the
   trustworthy-characteristic "Fair — with harmful bias managed" and the
   Measure function categories under which this report would live.
   <https://www.nist.gov/itl/ai-risk-management-framework>
-- NIST, _Special Publication 1270: Towards a Standard for Identifying and
-  Managing Bias in Artificial Intelligence_, March 2022.
+- NIST, *Special Publication 1270: Towards a Standard for Identifying and
+  Managing Bias in Artificial Intelligence*, March 2022.
   <https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf>
-- U.S. EEOC, _Uniform Guidelines on Employee Selection Procedures_,
+- U.S. EEOC, *Uniform Guidelines on Employee Selection Procedures*,
   29 C.F.R. §1607.4(D) — four-fifths rule context.
   <https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XIV/part-1607>
 - OWASP Machine Learning Security Top 10 — ML02 Data Poisoning and
