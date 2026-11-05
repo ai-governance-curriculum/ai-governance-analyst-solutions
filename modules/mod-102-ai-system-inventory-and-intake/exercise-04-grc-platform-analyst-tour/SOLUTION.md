@@ -90,7 +90,7 @@ scoring:
 - Use-case text is specific enough to classify — vague strings like "AI for
   productivity" get bounced back.
 - Attachments: a draft one-pager is linked as initial **Evidence** (type:
-  _use case memo_).
+  *use case memo*).
 
 Action taken on the object: set `status = validated`, assign analyst, record
 validation timestamp. The intake record is **not yet** promoted to an AI System.
@@ -354,18 +354,18 @@ Binary checks (all must pass):
 
 ## 6. References
 
-- ISO/IEC 42001:2023, _Information technology — Artificial intelligence —
-  Management system_. Clause 7 covers **documented information** (relevant to
+- ISO/IEC 42001:2023, *Information technology — Artificial intelligence —
+  Management system*. Clause 7 covers **documented information** (relevant to
   Evidence as a first-class object, retention, and version control); clause 9
   covers **performance evaluation and internal audit** (relevant to Review
   Cycle, internal-audit read access, and transition history).
   <https://www.iso.org/standard/81230.html>
-- NIST, _AI Risk Management Framework (AI RMF 1.0)_, January 2023. **Govern 1**
+- NIST, *AI Risk Management Framework (AI RMF 1.0)*, January 2023. **Govern 1**
   (policies, processes, procedures) grounds the intake and tier-triage
   workflow; **Govern 4** (culture and communication) grounds the routing of AI
   System records to the governance council and audit queues.
   <https://www.nist.gov/itl/ai-risk-management-framework>
-- NIST, _AI RMF Playbook_ — expanded suggested actions per category; used to
+- NIST, *AI RMF Playbook* — expanded suggested actions per category; used to
   validate the control families named in section 2.2 step 5.
   <https://www.nist.gov/itl/ai-risk-management-framework>
 - EU AI Act, Regulation (EU) 2024/1689. **Article 72** on **post-market

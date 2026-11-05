@@ -274,26 +274,26 @@ Deck-level checks (binary — all must pass):
 
 ## 6. References
 
-- NIST, _AI Risk Management Framework (AI RMF 1.0)_, January 2023 — Map
+- NIST, *AI Risk Management Framework (AI RMF 1.0)*, January 2023 — Map
   function categories 1, 2, 4, 5 cited throughout §2 for context, system
   categorisation, components, and impact. <https://www.nist.gov/itl/ai-risk-management-framework>
-- NIST, _AI RMF Playbook_ — expanded suggested actions used to validate the
+- NIST, *AI RMF Playbook* — expanded suggested actions used to validate the
   "Why we ask" anchors on each field. <https://www.nist.gov/itl/ai-risk-management-framework>
-- NIST, _AI 600-1: Generative AI Profile_, July 2024 — control hooks for
+- NIST, *AI 600-1: Generative AI Profile*, July 2024 — control hooks for
   fields D1, D4 and the triage rules on generative public output. <https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf>
-- European Union, _Regulation (EU) 2024/1689 (the EU AI Act)_ — Art. 2
+- European Union, *Regulation (EU) 2024/1689 (the EU AI Act)* — Art. 2
   (territorial scope), Art. 3 (definitions, incl. intended purpose, provider,
   deployer), Art. 5 (prohibited practices), Art. 6 and Annex III (high-risk
   classification), Art. 10 (data governance), Art. 14 (human oversight),
   Art. 25 (value-chain responsibilities), Art. 26 (deployer obligations),
   Art. 50 (transparency), Art. 51 (GPAI), Art. 72 (post-market monitoring).
   <https://eur-lex.europa.eu/eli/reg/2024/1689/oj>
-- ISO/IEC 42001:2023, _Information technology — Artificial intelligence —
-  Management system_ — Clause 5.3 (roles), Clause 6.1.4 (lifecycle planning),
+- ISO/IEC 42001:2023, *Information technology — Artificial intelligence —
+  Management system* — Clause 5.3 (roles), Clause 6.1.4 (lifecycle planning),
   Clause 7.2 (competence), Clause 8.1–8.4 (operational control, including
   third-party relationships). <https://www.iso.org/standard/81230.html>
-- OWASP, _Machine Learning Security Top 10_ — referenced via field H3 as the
+- OWASP, *Machine Learning Security Top 10* — referenced via field H3 as the
   taxonomy the security-concerns multi-select aligns to. <https://owasp.org/www-project-machine-learning-security-top-10/>
-- MITRE, _ATLAS (Adversarial Threat Landscape for AI Systems)_ — referenced
+- MITRE, *ATLAS (Adversarial Threat Landscape for AI Systems)* — referenced
   via field H3 for adversarial threat categories that feed later risk
   assessment. <https://atlas.mitre.org/>

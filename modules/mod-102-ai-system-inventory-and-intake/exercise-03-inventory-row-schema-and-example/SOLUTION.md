@@ -393,12 +393,12 @@ Binary deck-level checks (all must pass):
 
 ## 6. References
 
-- NIST, _AI Risk Management Framework (AI RMF 1.0)_ — **Map 1**
+- NIST, *AI Risk Management Framework (AI RMF 1.0)* — **Map 1**
   (context / intended purpose / jurisdictions) and **Map 4**
   (components, including third-party), used to anchor the ownership,
   jurisdiction, data-source, and provenance columns.
   <https://www.nist.gov/itl/ai-risk-management-framework>
-- NIST, _AI RMF Playbook_ — expanded suggested actions for Map 1 and
+- NIST, *AI RMF Playbook* — expanded suggested actions for Map 1 and
   Map 4, used to justify capturing provenance and jurisdiction as
   structured fields rather than free text.
   <https://www.nist.gov/itl/ai-risk-management-framework>
@@ -417,8 +417,8 @@ Binary deck-level checks (all must pass):
     (GPAI classification), 73 (serious-incident reporting), and Annex
     III (high-risk categories).
   <https://eur-lex.europa.eu/eli/reg/2024/1689/oj>
-- ISO/IEC 42001:2023, _Information technology — Artificial
-  intelligence — Management system_ — **Clause 7.5** (documented
+- ISO/IEC 42001:2023, *Information technology — Artificial
+  intelligence — Management system* — **Clause 7.5** (documented
   information), **Clause 8.1** (operational planning and control),
   **Clause 9.3** (management review). Anchors the identification,
   change-control, and review-cadence columns.

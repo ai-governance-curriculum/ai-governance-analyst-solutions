@@ -12,7 +12,7 @@ observe (vendor-hosted, physical, offline), and both sides drift on
 attributes like owner team and EU AI Act tier.
 
 Reconciling the two views is a standing analyst drill because NIST AI RMF
-_Map 4_ and ISO/IEC 42001:2023 _Clause 7.5_ both require the inventory to
+*Map 4* and ISO/IEC 42001:2023 *Clause 7.5* both require the inventory to
 remain accurate and controlled over time, not just at creation. This
 solution delivers:
 
@@ -29,7 +29,7 @@ solution delivers:
 The learner's output is correct when (a) no row from either source is
 silently dropped, (b) every row lands in exactly one of four status
 categories, (c) column-level disagreements are listed per system rather
-than summarised away, and (d) string normalisation happens _before_ the
+than summarised away, and (d) string normalisation happens *before* the
 diff so that `"Platform"` vs `"platform "` is not reported as a mismatch.
 
 ## 2. Worked answer or implementation
@@ -345,7 +345,7 @@ would (incorrectly) be reported as a mismatch.
   joinable would conflate "we renamed it" with "we discovered a new
   system".
 - **Status column is separate from the diff list.** A single system has one
-  _status_ (where does it exist?) but zero-to-many _column diffs_ (which
+  *status* (where does it exist?) but zero-to-many *column diffs* (which
   attributes disagree?). Mixing them collapses actionable detail. The
   summary tells leadership "we have 3 systems with discrepancies"; the
   detail tells the responsible engineer "fix the owner_team on SYS-002 in
@@ -369,7 +369,7 @@ would (incorrectly) be reported as a mismatch.
 - **Deterministic sort order.** The summary sorts by `(status, system_id)`
   and the detail sorts by `(system_id, column)` so the same inputs always
   produce byte-identical outputs — important when the file is diffed in git
-  or re-run inside a CI job for drift tracking (RMF _Measure 3_).
+  or re-run inside a CI job for drift tracking (RMF *Measure 3*).
 
 ## 3. Validation steps
 
@@ -444,7 +444,7 @@ Binary deck-level checks (all must pass):
 - **Comparing strings without normalising.** `"High_Risk"` vs `"high_risk"`
   or `"Platform "` vs `"Platform"` will register as a diff and swamp the
   real signal. Strip whitespace on every string column, and case-fold the
-  enum-like ones, _before_ the equality test.
+  enum-like ones, *before* the equality test.
 - **Reporting counts without listing mismatches.** A summary that says
   "3 systems have discrepancies" without `column_diffs.csv` is not
   actionable — the engineer who has to fix the drift needs the specific
@@ -460,19 +460,19 @@ Binary deck-level checks (all must pass):
 
 ## 6. References
 
-- NIST, _AI Risk Management Framework (AI RMF 1.0)_, January 2023 — Map 1
+- NIST, *AI Risk Management Framework (AI RMF 1.0)*, January 2023 — Map 1
   (context and inventory scope) and Map 4 (components of the AI system are
   mapped and documented, including third-party assets). The reconciliation
   drill operationalises Map 4's requirement that the inventory account for
-  _all_ components, not just the ones intake has seen. <https://www.nist.gov/itl/ai-risk-management-framework>
-- NIST, _AI RMF 1.0_, Measure 3 — mechanisms for tracking identified AI
+  *all* components, not just the ones intake has seen. <https://www.nist.gov/itl/ai-risk-management-framework>
+- NIST, *AI RMF 1.0*, Measure 3 — mechanisms for tracking identified AI
   risks over time. Reconciliation is the measurement that detects
   inventory drift between scans. <https://www.nist.gov/itl/ai-risk-management-framework>
-- ISO/IEC 42001:2023, _Information technology — Artificial intelligence —
-  Management system_, Clause 7.5 _Documented information_ — requires that
+- ISO/IEC 42001:2023, *Information technology — Artificial intelligence —
+  Management system*, Clause 7.5 *Documented information* — requires that
   documented information (including the AI system inventory) is controlled,
   kept current, and reviewable. A standing reconciliation job is one of the
   controls that evidences Clause 7.5 compliance.
-- pandas user guide, _merge, join, concatenate and compare_ section —
+- pandas user guide, *merge, join, concatenate and compare* section —
   semantics of `how="outer"`, the `indicator=True` flag used to produce the
   `_merge` column, and the `suffixes=` convention for overlapping columns.
