@@ -385,10 +385,10 @@ Deck-level checks (binary, all must pass for the triage programme as a whole):
   Map 1 (context) is the natural home for the triage record: the EU AI Act
   tier is part of the system's legal and regulatory context.
   <https://www.nist.gov/itl/ai-risk-management-framework>
-- **NIST, *AI RMF Playbook*** — suggested actions for Map 1 and Govern 1
+- **NIST**, *AI RMF Playbook* — suggested actions for Map 1 and Govern 1
   that align with producing and maintaining a tier-triage record.
   <https://www.nist.gov/itl/ai-risk-management-framework>
-- **ISO/IEC 42001:2023, *AI management systems — Requirements*** —
+- **ISO/IEC 42001:2023**, *AI management systems — Requirements* —
   management-system clauses (operational planning and control, Annex A
   controls) under which a triage workflow can be documented and audited.
   <https://www.iso.org/standard/81230.html>
