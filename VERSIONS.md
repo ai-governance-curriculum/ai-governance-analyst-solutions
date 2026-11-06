@@ -8,3 +8,4 @@
 | 2026-11-05 | `fill-mod-104-fairness-bias-and-model-behaviour-review-solutions` | `mod-104-fairness-bias-and-model-behaviour-review` | Fill mod-104-fairness-bias-and-model-behaviour-review module exercise solutions |
 | 2026-11-04 | `fill-mod-103-risk-assessment-authoring-solutions` | `mod-103-risk-assessment-authoring` | Fill mod-103-risk-assessment-authoring module exercise solutions |
 | 2026-11-04 | `fill-mod-102-ai-system-inventory-and-intake-solutions` | `mod-102-ai-system-inventory-and-intake` | Fill mod-102-ai-system-inventory-and-intake module exercise solutions |
+| 2026-11-05 | `fill-mod-105-impact-assessments-and-model-cards-solutions` | `mod-105-impact-assessments-and-model-cards` | Fill mod-105-impact-assessments-and-model-cards module exercise solutions |
