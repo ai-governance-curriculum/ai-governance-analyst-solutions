@@ -10,4 +10,5 @@
 | 2026-11-04 | `fill-mod-102-ai-system-inventory-and-intake-solutions` | `mod-102-ai-system-inventory-and-intake` | Fill mod-102-ai-system-inventory-and-intake module exercise solutions |
 | 2026-11-05 | `fill-mod-106-regulatory-tracking-and-jurisdictions-solutions` | `mod-106-regulatory-tracking-and-jurisdictions` | Fill mod-106-regulatory-tracking-and-jurisdictions module exercise solutions |
 | 2026-11-05 | `fill-mod-105-impact-assessments-and-model-cards-solutions` | `mod-105-impact-assessments-and-model-cards` | Fill mod-105-impact-assessments-and-model-cards module exercise solutions |
+| 2026-11-06 | `fill-mod-109-incident-response-and-continuous-monitoring-solutions` | `mod-109-incident-response-and-continuous-monitoring` | Fill mod-109-incident-response-and-continuous-monitoring module exercise solutions |
 | 2026-11-06 | `fill-mod-108-controls-and-compliance-evidence-solutions` | `mod-108-controls-and-compliance-evidence` | Fill mod-108-controls-and-compliance-evidence module exercise solutions |
