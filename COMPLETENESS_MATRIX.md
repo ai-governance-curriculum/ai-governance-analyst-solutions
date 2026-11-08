@@ -2,29 +2,29 @@
 
 AI Governance Curriculum · Level 15 · [learning](https://github.com/ai-governance-curriculum/ai-governance-analyst-learning) · [solutions](https://github.com/ai-governance-curriculum/ai-governance-analyst-solutions)
 
-_Generated 2026-11-03 by `aicg org completeness`._
+_Generated 2026-11-08 by `aicg org completeness`._
 
-**Overall: 50%**
+**Overall: 96%**
 
 | | Progress | Count |
 |---|---|---|
 | Learning | `██████████` 100% | 10/10 modules complete |
-| Solutions | `░░░░░░░░░░` 0% | 0/47 exercises solved |
+| Solutions | `█████████░` 91% | 43/47 exercises solved |
 
 ## Modules
 
 | Module | Status | Words | Chapters | Exercises | Quiz | Solutions |
 |---|---|---|---|---|---|---|
-| `mod-101-ai-governance-landscape` | ✅ Complete | 25,751 | 6 | 5 | — | 0/5 |
-| `mod-102-ai-system-inventory-and-intake` | ✅ Complete | 17,014 | 5 | 5 | — | 0/5 |
-| `mod-103-risk-assessment-authoring` | ✅ Complete | 17,410 | 5 | 5 | — | 0/5 |
-| `mod-104-fairness-bias-and-model-behaviour-review` | ✅ Complete | 16,487 | 4 | 4 | — | 0/4 |
-| `mod-105-impact-assessments-and-model-cards` | ✅ Complete | 27,642 | 8 | 6 | — | 0/6 |
-| `mod-106-regulatory-tracking-and-jurisdictions` | ✅ Complete | 38,763 | 10 | 5 | — | 0/5 |
+| `mod-101-ai-governance-landscape` | ✅ Complete | 25,751 | 6 | 5 | — | 5/5 |
+| `mod-102-ai-system-inventory-and-intake` | ✅ Complete | 24,193 | 5 | 5 | — | 5/5 |
+| `mod-103-risk-assessment-authoring` | ✅ Complete | 25,589 | 5 | 5 | — | 5/5 |
+| `mod-104-fairness-bias-and-model-behaviour-review` | ✅ Complete | 26,184 | 4 | 4 | — | 4/4 |
+| `mod-105-impact-assessments-and-model-cards` | ✅ Complete | 39,455 | 8 | 6 | — | 6/6 |
+| `mod-106-regulatory-tracking-and-jurisdictions` | ✅ Complete | 38,763 | 10 | 5 | — | 5/5 |
 | `mod-107-reading-eval-and-audit-evidence` | ✅ Complete | 38,291 | 10 | 4 | — | 0/4 |
-| `mod-108-controls-and-compliance-evidence` | ✅ Complete | 46,112 | 9 | 5 | — | 0/5 |
-| `mod-109-incident-response-and-continuous-monitoring` | ✅ Complete | 48,905 | 9 | 4 | — | 0/4 |
-| `mod-110-communication-and-council-support` | ✅ Complete | 45,592 | 9 | 4 | — | 0/4 |
+| `mod-108-controls-and-compliance-evidence` | ✅ Complete | 46,112 | 9 | 5 | — | 5/5 |
+| `mod-109-incident-response-and-continuous-monitoring` | ✅ Complete | 48,905 | 9 | 4 | — | 4/4 |
+| `mod-110-communication-and-council-support` | ✅ Complete | 45,592 | 9 | 4 | — | 4/4 |
 
 ## How this is calculated
 
