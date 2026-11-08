@@ -269,9 +269,9 @@ Document-level checks (binary, all must pass):
 - Federal Trade Commission, *Aiming for truth, fairness, and
   equity in your company's use of AI*, business blog, 19 April 2021. <https://www.ftc.gov/business-guidance/blog/2021/04/aiming-truth-fairness-equity-your-companys-use-ai>
 - Board of Governors of the Federal Reserve System, *SR 11-7:
-  Guidance on Model Risk Management*, 4 April 2011. <https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm>
+  Guidance on Model Risk Management*, 4 April 2011. <http://web.archive.org/web/20260414150921/https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm>
 - Office of the Comptroller of the Currency, *Bulletin 2011-12:
-  Sound Practices for Model Risk Management*. <https://www.occ.gov/news-issuances/bulletins/2011/bulletin-2011-12.html>
+  Sound Practices for Model Risk Management*. <http://web.archive.org/web/20260416232808/https://www.occ.gov/news-issuances/bulletins/2011/bulletin-2011-12.html>
 - Federal Deposit Insurance Corporation, *FIL-22-2017: Adoption of
   Supervisory Guidance on Model Risk Management*. <https://www.fdic.gov/news/financial-institution-letters/2017/fil17022.html>
 - HIPAA Privacy, Security, and Breach Notification Rules, 45 C.F.R.
