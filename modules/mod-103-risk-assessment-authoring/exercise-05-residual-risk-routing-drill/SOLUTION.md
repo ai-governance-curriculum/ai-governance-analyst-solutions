@@ -228,7 +228,7 @@ Drill-level checks (binary, all must pass):
   intelligence — Guidance on risk management_ — AI-specific overlay. <https://www.iso.org/standard/77304.html>
 - Board of Governors of the Federal Reserve System, _SR 11-7:
   Guidance on Model Risk Management_, 4 April 2011 — basis for
-  independent effective-challenge sign-off for US bank use cases. <https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm>
+  independent effective-challenge sign-off for US bank use cases. <http://web.archive.org/web/20260414150921/https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm>
 - OWASP, _Machine Learning Security Top 10_ — referenced for
   information-security routing anchors. <https://owasp.org/www-project-machine-learning-security-top-10/>
 - MITRE ATLAS — referenced for adversary-technique vocabulary in
