@@ -250,9 +250,9 @@ Mapping-level checks (binary, all must pass):
 ## 6. References
 
 - Board of Governors of the Federal Reserve System, _SR 11-7:
-  Guidance on Model Risk Management_, 4 April 2011. <https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm>
+  Guidance on Model Risk Management_, 4 April 2011. <http://web.archive.org/web/20260414150921/https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm>
 - Office of the Comptroller of the Currency, _OCC Bulletin 2011-12:
-  Supervisory Guidance on Model Risk Management_. <https://www.occ.gov/news-issuances/bulletins/2011/bulletin-2011-12.html>
+  Supervisory Guidance on Model Risk Management_. <http://web.archive.org/web/20260416232808/https://www.occ.gov/news-issuances/bulletins/2011/bulletin-2011-12.html>
 - FDIC, _FIL-22-2017: Adoption of Supervisory Guidance on Model Risk
   Management_. <https://www.fdic.gov/news/financial-institution-letters/2017/fil17022.html>
 - NIST, _AI Risk Management Framework (AI RMF 1.0)_, January 2023 —
