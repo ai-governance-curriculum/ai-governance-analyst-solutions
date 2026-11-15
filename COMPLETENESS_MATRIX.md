@@ -2,7 +2,7 @@
 
 AI Governance Curriculum · Level 15 · [learning](https://github.com/ai-governance-curriculum/ai-governance-analyst-learning) · [solutions](https://github.com/ai-governance-curriculum/ai-governance-analyst-solutions)
 
-_Generated 2026-11-08 by `aicg org completeness`._
+_Generated 2026-11-15 by `aicg org completeness`._
 
 **Overall: 96%**
 
@@ -20,11 +20,11 @@ _Generated 2026-11-08 by `aicg org completeness`._
 | `mod-103-risk-assessment-authoring` | ✅ Complete | 25,589 | 5 | 5 | — | 5/5 |
 | `mod-104-fairness-bias-and-model-behaviour-review` | ✅ Complete | 26,184 | 4 | 4 | — | 4/4 |
 | `mod-105-impact-assessments-and-model-cards` | ✅ Complete | 39,455 | 8 | 6 | — | 6/6 |
-| `mod-106-regulatory-tracking-and-jurisdictions` | ✅ Complete | 38,763 | 10 | 5 | — | 5/5 |
-| `mod-107-reading-eval-and-audit-evidence` | ✅ Complete | 38,291 | 10 | 4 | — | 0/4 |
-| `mod-108-controls-and-compliance-evidence` | ✅ Complete | 46,112 | 9 | 5 | — | 5/5 |
-| `mod-109-incident-response-and-continuous-monitoring` | ✅ Complete | 48,905 | 9 | 4 | — | 4/4 |
-| `mod-110-communication-and-council-support` | ✅ Complete | 45,592 | 9 | 4 | — | 4/4 |
+| `mod-106-regulatory-tracking-and-jurisdictions` | ✅ Complete | 51,253 | 10 | 5 | — | 5/5 |
+| `mod-107-reading-eval-and-audit-evidence` | ✅ Complete | 51,257 | 10 | 4 | — | 0/4 |
+| `mod-108-controls-and-compliance-evidence` | ✅ Complete | 61,439 | 9 | 5 | — | 5/5 |
+| `mod-109-incident-response-and-continuous-monitoring` | ✅ Complete | 66,249 | 9 | 4 | — | 4/4 |
+| `mod-110-communication-and-council-support` | ✅ Complete | 63,219 | 9 | 4 | — | 4/4 |
 
 ## How this is calculated
 
